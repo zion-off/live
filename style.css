@@ -15,9 +15,23 @@ body {
     overflow: hidden;
 }
 
-h1 {
+h1, h2 {
     position: relative;
     font-family: Type, sans-serif;
     text-align: center;
-    top: 10vh;
+}
+
+.live {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    height: 60%;
+    width: 60%;
 }
